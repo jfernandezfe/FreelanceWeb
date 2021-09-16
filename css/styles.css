@@ -33,7 +33,8 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0 auto  0 auto; /* <-- Es lo mismo que arriba*/
-    
+    background-image: url(../img/hero3.jpg); /*Esta imagen debe ser cambiada ya que solo estaba realizando una prueba para poner una imagen de fondo en el contenedor...*/
+                                                /*mover estas propiedas a una clase llamada navbar*/
 }
 
 .boton1{
@@ -68,6 +69,8 @@ body{
 }
 
 /* Tipografía*/
+
+
 
 h1{
     font-size: 3.8rem ;         
