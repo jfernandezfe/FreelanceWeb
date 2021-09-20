@@ -21,9 +21,11 @@ html{
     scroll-snap-stop: always;
 }
 *, *:before, *:after{
+
     box-sizing: inherit;   
 }
 body{
+
     font-size: 16px;/* 1rem = 10px */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(to top, var(--grisClaro)  0%, var(--blanco) 100%);
@@ -31,10 +33,17 @@ body{
 }
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 100rem;
     margin: 0 auto  0 auto; /* <-- Es lo mismo que arriba*/
-    background-image: url(../img/hero3.jpg); /*Esta imagen debe ser cambiada ya que solo estaba realizando una prueba para poner una imagen de fondo en el contenedor...*/
+    background-image: url(../img/3.png); /*Esta imagen debe ser cambiada ya que solo estaba realizando una prueba para poner una imagen de fondo en el contenedor...*/
                                                 /*mover estas propiedas a una clase llamada navbar*/
+
+    background-size: cover;
+}
+
+.navbar{
+    max-width: 120rem;
+    margin: 0 auto  0 auto;
 }
 
 .boton1{
